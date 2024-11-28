@@ -1,0 +1,11 @@
+[[Libxc_GPU]]
+arch = "x86_64"
+cuda = "12.6"
+git-tree-sha1 = "044bb940aef3dd5de41abe24be7d9bc59af6cd5b"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[Libxc_GPU.download]]
+    sha256 = "77bd052fd190408bb55313efb0b0fa1e406691771a5a91d717bd9869762547a4"
+    url = "https://github.com/maleadt/Libxc_gpu_jll.jl/releases/download/Libxc_GPU-v7.0.0+0/Libxc_GPU.v7.0.0.x86_64-linux-gnu-cuda+12.6.tar.gz"
